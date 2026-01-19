@@ -1,4 +1,4 @@
-# Projet 2 : Reconnaissance des panneaux de signalisation (GTSRB) ||||========================>>>
+# Projet : Reconnaissance des panneaux de signalisation (GTSRB) ||||========================>>>
 
 Ce dépot inclut tout le nécessaire pour créer le modèle de détection des panneaux routiers pour le Projet 2 sur la conduite autonome, basé sur le dataset GTSRB.
 
@@ -38,3 +38,4 @@ baseline_cnn.keras : Modele final prét.
 
 ### Notebook d’exploration: |======>>>
 01_explore_dataset.ipynb : Exploration initiale du dataset.
+
