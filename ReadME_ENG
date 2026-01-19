@@ -1,5 +1,7 @@
 # Project: Traffic Sign Recognition (GTSRB)
 ======================================
+This project was developed as part of the **HPC for Artificial Intelligence** module in the **Master 2 CHPS (High Performance Computing and Simulation)** program at **Université de Perpignan Via Domitia (UPVD)**.
+
 
 This repository contains all the necessary components to build a traffic sign recognition model for **Project 2 – Autonomous Driving**, based on the **GTSRB (German Traffic Sign Recognition Benchmark)** dataset.
 
