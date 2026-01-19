@@ -1,0 +1,66 @@
+# Project: Traffic Sign Recognition (GTSRB)
+======================================
+
+This repository contains all the necessary components to build a traffic sign recognition model for **Project 2 – Autonomous Driving**, based on the **GTSRB (German Traffic Sign Recognition Benchmark)** dataset.
+
+A **Convolutional Neural Network (CNN) trained from scratch** is implemented, covering the full pipeline including **data preprocessing, training, evaluation, and inference**.
+
+---
+
+## Project Structure and File Roles
+==================================
+
+The main pipeline scripts are presented first, followed by analysis tools, outputs, and exploration notebooks.
+
+---
+
+### Main Scripts (Model Pipeline)
+================================
+
+- **model.py**  
+  Defines the CNN architecture for the 43 traffic sign classes.
+
+- **data.py**  
+  Loads the GTSRB dataset and performs preprocessing (resizing, normalization, label encoding) with a focus on reproducibility.
+
+- **train.py**  
+  Trains the model using dropout and Early Stopping, and saves the trained weights.
+
+- **evaluate.py**  
+  Evaluates the model on validation/test data using accuracy, confusion matrix, and classification report.
+
+- **infer_demo.py**  
+  Performs inference on unseen images to demonstrate the model’s generalization capability.
+
+---
+
+### Analysis and Visualization Scripts
+=====================================
+
+- **inspect_errors.py**  
+  Analyzes misclassifications and confusions between visually similar traffic signs.
+
+- **plot_training_curves.py**  
+  Generates loss and accuracy curves to assess convergence and detect overfitting.
+
+---
+
+### Results and Output Files
+============================
+
+- **training_history.json**  
+  Training history used for performance analysis and visualization.
+
+- **classification_report.txt**  
+  Detailed metrics including precision, recall, and F1-score.
+
+- **baseline_cnn.keras**  
+  Final trained CNN model.
+
+---
+
+### Exploration Notebook
+========================
+
+- **01_explore_dataset.ipynb**  
+  Initial exploratory analysis of the GTSRB dataset.
